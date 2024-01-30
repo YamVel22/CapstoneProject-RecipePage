@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+header {
+  width: 100%;
+  position: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  background: #aa8892;
+  padding: 30px 8%;
+  margin: 10px auto;
+  z-index: 100;
+}
+.logo {
+  font-weight: bold;
+  font-size: 36px;
+  margin-right: 4px;
+  display: inline;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-menu a {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  padding: 1px;
+  cursor: pointer;
+  font-weight: 500;
+  transform: 0.3s;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  color: bisque;
+}
+
+.about {
+  height: 100vh;
+  width: 80%;
+}
+img {
+  width: 320px;
+  height: 400px;
+  float: right;
+  margin-right: 5px;
+  border: 3px solid #aa8892;
+  border-radius: 20px;
+}
+
+.aboutText h2 {
+  font-size: 26px;
+  color: black;
+  border: 3px solid #aa8892;
+  width: 15%;
+  border-radius: 20px 30px 5px 15px;
+  box-shadow: 4px 3px 4px;
+}
+
+.aboutText p {
+  font-size: 18px;
+  border: 3px solid #aa8892;
+  margin: 15px;
+  box-shadow: 3px 3px 30px;
+}
+
+.contentbox {
+  width: 30%;
+  margin: auto;
+  border: 1px solid #aa8892;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredients {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rightBox img {
+  height: 400px;
+  float: left;
+  transition: all 0.4s linear 0s;
+}
+.rightBox img:hover {
+  transform: scale(1.5);
+}
+.ingredientList {
+  width: 100%;
+  text-decoration: none;
+  box-shadow: 4px 3px 1px;
+}
+
+.ingredientList h2 {
+  border: 3px solid #aa8892;
+  font-size: 26px;
+  border-radius: 5px 30px 50px 15px;
+  width: 20%;
+  box-shadow: 4px 3px 4px;
+}
+
+.leftBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.methodList h2 {
+  font-size: 26px;
+  border: 3px solid #aa8892;
+  border-radius: 5px 30px 50px 15px;
+  width: 20%;
+  box-shadow: 4px 3px 4px;
+}
+.advise {
+  width: 70%;
+}
+.advise h2 {
+  font-size: 26px;
+  border: 3px solid #aa8892;
+  border-radius: 5px 30px 10px 15px;
+  width: 50%;
+  box-shadow: 4px 3px 4px;
+}
+.readyBuns img {
+  float: right;
+  width: 500px;
+  height: 400px;
+
+  margin-right: 5px;
+  border: 3px solid #aa8892;
+  border-radius: 20px;
+}
+
+.page-footer {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background: #aa8892;
+}
+.logo-footer {
+  font-weight: bold;
+}
