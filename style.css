@@ -84,7 +84,7 @@ img {
 }
 
 iframe {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -108,6 +108,7 @@ iframe {
 .rightBox img {
   float: left;
   transition: all 0.4s linear 0s;
+  width: 200px;
 }
 .rightBox img:hover {
   transform: scale(1.5);
@@ -130,6 +131,7 @@ iframe {
 .leftBox {
   display: flex;
   flex-direction: column;
+  width: 70;
 }
 
 .methodList h2 {
