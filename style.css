@@ -160,15 +160,15 @@ iframe {
   margin: auto;
   border: 1px solid #aa8892;
   background-color: white;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  justify-content: center;
   margin-top: 20px;
   padding: 15px;
 }
 
 .ingredients {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
