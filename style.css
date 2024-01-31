@@ -74,20 +74,19 @@ img {
   margin: 10px;
   box-shadow: 3px 3px 30px;
 }
-.watchMe{
+.watchMe {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #aa8892
+  background-color: #aa8892;
 }
 
 iframe {
   max-width: 100%;
   height: auto;
-}
 }
 
 .contentbox {
