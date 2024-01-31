@@ -7,13 +7,12 @@
 
 header {
   width: 100%;
-  position: flex;
-  height: 80px;
+  height: 90px;
   align-items: center;
   justify-content: space-around;
   display: flex;
   background: #aa8892;
-  padding: 30px 8%;
+  padding: 0 5px;
   margin: 10px auto;
   z-index: 100;
 }
@@ -75,12 +74,12 @@ img {
   box-shadow: 3px 3px 30px;
 }
 .watchMe {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 40px;
   background-color: #aa8892;
 }
 
