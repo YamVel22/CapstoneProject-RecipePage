@@ -24,6 +24,7 @@ header {
   font-size: 1.5em;
   font-weight: bolder;
   color: #aa8892;
+  font-family: cursive;
 }
 .nav-menu {
   list-style: none;
@@ -45,8 +46,8 @@ header {
 }
 
 .nav-menu a:hover {
-  color: bisque;
-  font-weight: bold;
+  color: #aa8892;
+  font-weight: bolder;
 }
 /* Responsive Styles */
 
